@@ -1,0 +1,195 @@
+ Online HTML, CSS and JavaScript editor to run code online.
+
+ -->
+
+ <!DOCTYPE html>
+
+ <html lang="en">
+
+
+
+ <head>
+
+ <meta charset="UTF-8" />
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <link rel="stylesheet" href="style.css" />
+
+
+
+<title>Browser</title>
+
+ </head>
+
+
+
+ <body>
+
+ <nav>
+
+ <a href="#">Home</a>
+
+ <a href="#">Products</a>
+
+<a href="#">Dairies</a>
+
+<a href="#">Cart (<span id="cart-count">0</span>)</a>
+
+</nav>
+
+ <h1 id="app-title">Dairy Marketplace</h1>
+<p>Fresh dairy products from local dairies</p>
+
+
+
+<input type="text" placeholder="Search dairy products">
+
+ <div class="categories">
+
+
+
+
+
+<button>Milk</button>
+
+
+
+<button>Curd</button>
+
+
+
+<button>Paneer</button>
+
+ <button>Butter</button>
+
+
+
+<button>Ghee</button>
+
+
+
+
+
+</div>
+
+
+
+<div class="dairy-profile">
+
+
+
+<img src="dairy.jpg" alt="Shiva Dairy">
+
+ <h2>Shiva Dairy</h2>
+
+
+
+
+
+<p>Fresh milk and dairy products</p>
+
+
+
+ <p> 4.8 Rating</p>
+
+
+<p> Local Dairy</p>
+
+
+
+<button id="view-dairy-btn">View
+
+Dairy</button>
+</div>
+
+ <div class="product-card">
+
+ <img src="milk.jpg" alt=" fresh Milk">
+
+ <h2>Fresh Milk</h2>
+
+
+
+ <p>Pure and fresh dairy milk</p>
+
+ <p>Price: ₹60 per litre</p>
+
+ <button onclick="addToCart()">Add to Cart</button>
+
+<button>Buy Now</button> 54
+
+ <label>Quantity: </label>
+
+ <input type="number" value="1" min="1">
+
+ </div>
+
+ <div class="product-card">
+
+ <img src="curd.jpg" alt=" fresh Curd">
+
+ <h2>Fresh Curd</h2>
+
+
+
+ <p>Thick and fresh dairy curd</p>
+
+ <p>Price: ₹50 per kg</p>
+
+ <button onclick="addToCart()">Add to Cart</button>
+
+ <button>Buy Now</button>
+
+ <label>Quantity: </label>
+
+ <input type="number" value="1" min="1">
+
+ </div>
+
+ <div class="product-card">
+ <img src="paneer.jpg" alt=" fresh Paneer">
+
+ <h2>Fresh Paneer</h2>
+
+
+
+ <p>Soft and fresh dairy paneer</p>
+
+ <p>Price: ₹350 per kg</p>
+
+ <button onclick="addToCart()">Add to Cart</button>
+
+ <button>Buy Now</button>
+
+ <label>Quantity: </label>
+
+ <input type="number" value="1" min="1">
+
+ </div>
+
+ <div class="product-card">
+
+ <img src="ghee.jpg" alt="fresh Ghee">
+
+ <h2>Fresh Ghee</h2>
+
+
+
+ <p>Pure and fresh dairy Ghee</p>
+
+ <p>Price: ₹1500 per kg</p>
+
+ <button onclick="addToCart()">Add to Cart</button>
+
+ <button>Buy Now</button>
+
+<label>Quantity: </label>
+
+ <input type="number" value="1" min="1">
+
+ </div>
+
+ <script src="script.js"> </script>
+
+</body>
